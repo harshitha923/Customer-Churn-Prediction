@@ -11,25 +11,9 @@ This project is a modular and interactive machine learning pipeline designed to 
 - 🎯 **Classification**: Predicts whether a customer is likely to churn using ML algorithms.
 - 🧠 **Clustering**: Groups similar customers based on behavior and demographics.
 - 🧱 **Association Rule Mining**: Uncovers hidden patterns and relationships in customer attributes.
-- 💬 **Chatbot**: Simulated chatbot to answer user queries using rules/logic.
+- 💬 **Chatbot**: Interact with a conversational AI chatbot built using Google’s Gemini API, capable of generating natural, contextual replies to customer queries.
 - 🌐 **Streamlit Web App**: Frontend UI for interacting with the pipeline.
 
----
-
-## 🗂️ File Structure
-
-customer-churn-prediction/
-│
-├── app.py # Streamlit frontend interface
-├── preprocessing.py # Data cleaning, encoding, and scaling
-├── classification.py # Churn prediction using ML classifiers
-├── clustering.py # Customer segmentation via clustering
-├── outlier_detection.py # Detects anomalies using statistical methods
-├── association_mining.py # Extracts rules using Apriori / FP-Growth
-├── visualization.py # Data visualization and plot functions
-├── chatbot.py # Rule-based customer interaction bot
-├── data/ # Folder for input datasets (CSV files)
-└── README.md # Project documentation
 ---
 
 ## 🛠️ Technologies Used
@@ -41,8 +25,6 @@ customer-churn-prediction/
 - Matplotlib, Seaborn
 - ML Algorithms: Logistic Regression, Decision Trees, KMeans
 - Association Rule Mining: MLxtend
-- Chatbot Logic: Python rule-based scripting
-
 ---
 
 ## 📦 Installation
@@ -50,19 +32,24 @@ customer-churn-prediction/
 1. **Clone the repository**
 
    Run:
-     git clone https://github.com/yourusername/customer-churn-prediction.git
+   
+     git clone https://github.com/harshitha923/customer-churn-prediction.git
      cd customer-churn-prediction
-2. **Install required libraries**
-   Create requirements.txt if not already present:
-streamlit
-pandas
-numpy
-scikit-learn
-matplotlib
-seaborn
-mlxtend
+3. **Install required libraries**
+
+Run:
 
     pip install -r requirements.txt
+    
+Create requirements.txt if not already present:
+   
+      streamlit
+      pandas
+      numpy
+      scikit-learn
+      matplotlib
+      seaborn
+      mlxtend
 
 ## ▶️ Running the Application
 Launch the Streamlit web app locally:
